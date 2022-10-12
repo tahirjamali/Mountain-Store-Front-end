@@ -17,7 +17,7 @@
 <body>
     <!-- NAVIGATION -->
     <nav class="p-4">
-        <div class="flex flex-wrap justify-between">
+        <div class="flex flex-col items-center lg:justify-between lg:flex-row">
             <!-- BRANDING -->
             <div class="">
                 <a href="#">
@@ -25,31 +25,37 @@
                 </a>
             </div>
             <!-- SEARCH -->
-            
-                <div class=" flex flex-col gap-3">
-                    <form class="flex justify-center">
-                        <input class="border border-gray-400  px-4 w-96 text-center" aria-label="Search" placeholder="What can we help you find ?" type="search" />
-                        <button class="btn bg-gradient text-white " type="submit">SEARCH</button>
-                    </form>
-                    <ul id="nav" class="flex flex-wrap uppercase font-bold text-rose-700  gap-3">
-                        <li><a href="#">Clothing</a></li>
-                        <li><a href="#">Footwear</a></li>
-                        <li><a href="#">Equipment</a></li>
-                        <li><a href="#">Bags &amp; Travel</a></li>
-                        <li><a href="#">Trail Reviews</a></li>
-                    </ul>
-                </div>
-            
+
+            <div class=" flex flex-col gap-3">
+                <form class="flex flex-col items-center md:flex-row gap-2 md:gap-0 justify-center">
+                    <input class="focus:outline-none border border-gray-400 py-1 px-4 md:w-96 w-80 text-center"
+                        aria-label="Search" placeholder="What can we help you find ?" type="search" />
+                    <button class="btn bg-gradient text-white w-60" type="submit">SEARCH</button>
+                </form>
+                <ul id="nav" class="flex flex-wrap justify-around uppercase font-bold text-rose-700  gap-3">
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Bags &amp; Travel</a></li>
+                    <li><a href="#">Trail Reviews</a></li>
+                </ul>
+            </div>
+
         </div>
     </nav>
 
     <!-- HERO -->
-    <section class="">
-        <div class="">
-            <h1>Get A Grip</h1>
-            <h2>20% Off</h2>
-            <p>Throughout The Season</p>
-        </div>
+    <section class="hero flex flex-col gap-8 justify-around py-44">
+            <div class="ml-auto mr-auto  uppercase">
+
+                <h1 class="text-5xl text-right md:text-8xl font-bold font-sans bg-clip-text text-transparent bg-gradient-to-tr from-orange-500 to-rose-600">
+                    Get A Grip <br />
+                    20% OFF <br />
+                </h1>
+                <p class="text-right text-2xl font-bold">
+                    Throughout The Season
+                </p>
+            </div>
     </section>
 
     <!-- MAIN  -->
@@ -173,8 +179,13 @@
         </section>
 
         <!-- COPYRIGHT -->
+ 
             <div></div>
         <div class="text-center mt-8">&copy; <a href="https://github.com/tahirjamali">Tahir Jamali</a> <span id="year"></span></div>
+
+        <div class="text-center mt-8">&copy; <a href="https://github.com/tahirjamali">Tahir Jamali</a> <span
+                id="year"></span></div>
+ 
 
         <script>
             document.getElementById("year").innerText = new Date().getFullYear();
