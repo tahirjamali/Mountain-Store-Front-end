@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    /*
+    .class-name {
+
+    }
+    */
+}
+
+
+
+.facebook {
+    background-image: url('../img/facebook.svg');
+
+}
+.twitter {
+    background-image: url('../img/twitter.svg');
+}
+.instagram {
+    background-image: url('../img/instagram.svg');
+}
+.pinterest {
+    background-image: url('../img/pinterest.svg');
+}

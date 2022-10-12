@@ -120,11 +120,11 @@
     </div>
 
     <!-- FOOTER -->
-    <footer>
-        <section class="">
-            <div class="">
-                <div class="">Customer Support</div>
-                <ul>
+    <footer class="bg-gray-500 text-white p-20 pb-10">
+        <section class="flex justify-around uppercase">
+            <div class="flex flex-col gap-6">
+                <div class="text-xl text-gray-800 font-bold">Customer Support</div>
+                <ul class="flex flex-col gap-2">
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Order Tracker</a></li>
                     <li><a href="#">Returns &amp; Refunds</a></li>
@@ -133,9 +133,9 @@
                     <li><a href="#">Site Map</a></li>
                 </ul>
             </div>
-            <div class="">
-                <div class="">Company Info</div>
-                <ul>
+            <div class="flex flex-col gap-6">
+                <div class="text-xl text-gray-800 font-bold">Company Info</div>
+                <ul class="flex flex-col gap-2">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Press</a></li>
@@ -145,21 +145,21 @@
                     <li><a href="#">Mobile Apps</a></li>
                 </ul>
             </div>
-            <div class="">
-                <div class="">Privacy &amp; Terms</div>
-                <ul>
+            <div class="flex flex-col gap-6">
+                <div class="text-xl text-gray-800 font-bold">Privacy &amp; Terms</div>
+                <ul class="flex flex-col gap-2">
                     <li><a href="#">Privacy &amp; Security</a></li>
                     <li><a href="#">Statement</a></li>
                     <li><a href="#">Terms &amp; Conditions</a></li>
                 </ul>
             </div>
-            <div class="">
-                <div class="">Follow Us</div>
-                <ul>
-                    <li><a href="#" class=""></a></li>
-                    <li><a href="#" class=""></a></li>
-                    <li><a href="#" class=""></a></li>
-                    <li><a href="#" class=""></a></li>
+            <div class="flex justify-around">
+                <div class="text-xl text-gray-800 font-bold">Follow Us</div>
+                <ul class="flex flex-col gap-2">
+                    <li><a href="#" class="twitter"></a></li>
+                    <li><a href="#" class="facebook"></a></li>
+                    <li><a href="#" class="instagram"></a></li>
+                    <li><a href="#" class="pinterest"></a></li>
                 </ul>
                 <div class="">
                     <div class="">Email Updates</div>
@@ -172,19 +172,12 @@
             </div>
         </section>
 
-        <!-- PS DEMO -->
-        <section class="">
-            <div class="">
-                <img src="img/pluralsight-white.png" />
-                <div class="">
-                    This site is created for demonstrative purposes only and does not
-                    offer any real products or services.
-                </div>
-            </div>
-        </section>
-
         <!-- COPYRIGHT -->
-        <div class="">&copy;Pluralsight 2018</div>
+        <div class="text-center mt-8">&copy; <a href="https://github.com/tahirjamali">Tahir Jamali</a> <span id="year"></span></div>
+
+        <script>
+            document.getElementById("year").innerText = new Date().getFullYear();
+        </script>
     </footer>
 </body>
 
