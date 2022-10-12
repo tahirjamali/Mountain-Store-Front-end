@@ -1,0 +1,22 @@
+{
+    "name": "mountain-store-front-end",
+    "version": "1.0.0",
+    "description": "Front-End for Mountain Store Ecommerse Web App",
+    "main": "server.js",
+    "devDependencies": {
+        "tailwindcss": "^3.1.8"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tahirjamali/Moutain-Store-Front-end.git"
+    },
+    "author": "Tahir Jamali",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/tahirjamali/Moutain-Store-Front-end/issues"
+    },
+    "homepage": "https://github.com/tahirjamali/Moutain-Store-Front-end#readme"
+}
