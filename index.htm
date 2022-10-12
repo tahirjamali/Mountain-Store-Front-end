@@ -3,120 +3,176 @@
 
 <head>
     <!-- SEO -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="mountain store,buy high travelling and hiking products" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="mountain store,buy high travelling and hiking products"/>
     <meta name="keywords" content="mountain, store, hiking, travelling, outdoor, products, value-for-money">
 
     <title>Mountain Store</title>
 
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png"/>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <!-- NAVIGATION -->
-    <nav class="p-4">
-        <div class="flex flex-col items-center lg:justify-between lg:flex-row">
-            <!-- BRANDING -->
-            <div class="">
-                <a href="#">
-                    <img class="w-48" alt="Carved Rock Fitness" src="img/logo.svg" />
-                </a>
-            </div>
-            <!-- SEARCH -->
-
-            <div class=" flex flex-col gap-3">
-                <form class="flex flex-col items-center md:flex-row gap-2 md:gap-0 justify-center">
-                    <input class="focus:outline-none border border-gray-400 py-1 px-4 md:w-96 w-80 text-center"
-                        aria-label="Search" placeholder="What can we help you find ?" type="search" />
-                    <button class="btn bg-gradient text-white w-60" type="submit">SEARCH</button>
-                </form>
-                <ul id="nav" class="flex flex-wrap justify-around uppercase font-bold text-rose-700  gap-3">
-                    <li><a href="#">Clothing</a></li>
-                    <li><a href="#">Footwear</a></li>
-                    <li><a href="#">Equipment</a></li>
-                    <li><a href="#">Bags &amp; Travel</a></li>
-                    <li><a href="#">Trail Reviews</a></li>
-                </ul>
-            </div>
-
+<!-- NAVIGATION -->
+<nav class="p-4">
+    <div class="max-w-7xl ml-auto mr-auto flex flex-col items-center lg:justify-between lg:flex-row">
+        <!-- BRANDING -->
+        <div class="">
+            <a href="#">
+                <img class="w-48" alt="Carved Rock Fitness" src="img/logo.svg"/>
+            </a>
         </div>
-    </nav>
+        <!-- SEARCH -->
 
-    <!-- HERO -->
-    <section class="hero flex flex-col gap-8 justify-around py-44">
-            <div class="ml-auto mr-auto  uppercase">
+        <div class=" flex flex-col gap-3">
+            <form class="flex flex-col items-center md:flex-row gap-2 md:gap-0 justify-center">
+                <input class="focus:outline-none border border-gray-400 py-1 lg:py-1 px-4 md:w-96 w-80 text-center"
+                       aria-label="Search" placeholder="What can we help you find ?" type="search"/>
+                <button class="bg-gradient text-white w-60 py-[5px] px-8" type="submit">SEARCH</button>
+            </form>
+            <ul id="nav" class="flex flex-wrap justify-around uppercase font-bold text-rose-700  gap-3">
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Footwear</a></li>
+                <li><a href="#">Equipment</a></li>
+                <li><a href="#">Bags &amp; Travel</a></li>
+                <li><a href="#">Trail Reviews</a></li>
+            </ul>
+        </div>
 
-                <h1 class="text-5xl text-right md:text-8xl font-bold font-sans bg-clip-text text-transparent bg-gradient-to-tr from-orange-500 to-rose-600">
-                    Get A Grip <br />
-                    20% OFF <br />
-                </h1>
-                <p class="text-right text-2xl font-bold">
-                    Throughout The Season
-                </p>
-            </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero flex flex-col gap-8 justify-around py-44">
+<div class="ml-auto mr-auto  uppercase backdrop-blur-md p-4 rounded-md">
+        <h1 class="text-5xl text-right md:text-8xl font-bold font-sans bg-clip-text text-transparent bg-gradient-to-tr from-orange-500 to-rose-600">
+            Get A Grip <br/>
+            20% OFF <br/>
+        </h1>
+    <p class="text-right text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-tr from-orange-500 to-rose-600">
+            Throughout The Season
+        </p>
+    </div>
+</section>
+
+<!-- MAIN  -->
+<div class="max-w-7xl ml-auto mr-auto my-20">
+    <!-- SALE BANNER -->
+    <section
+            class="text-center border-t border-b border-gray-300 flex flex-col gap-6 lg:flex-row flex-wrap justify-around items-center py-10">
+        <img alt="Brown Boots" class="w-72" src="img/brown-boots.jpg"/>
+        <div class="">
+            <div class="text-gray-500 text-3xl uppercase font-bold">Couples retreat weekend</div>
+            <div class="text-blue-500 text-3xl uppercase font-bold">Save an extra 20%</div>
+            <div class="text-lg text-gray-500 uppercase">when you buy 2 pairs of boots</div>
+        </div>
+        <img alt="Grey Boots" class="w-72" src="img/grey-boots.jpg"/>
     </section>
 
-    <!-- MAIN  -->
-    <div class="">
-        <!-- SALE BANNER -->
-        <section>
-            <div class="">
-                <img alt="Brown Boots" src="img/brown-boots.jpg" />
-                <div class="">
-                    <div class="">Couples retreat weekend</div>
-                    <div class="">Save an extra 20%</div>
-                    <div class="">when you buy 2 pairs of boots</div>
+    <!-- CATEGORIES -->
+    <section class="mt-20 flex flex-col md:flex-row flex-wrap lg:justify-between md:justify-around items-center gap-6">
+        <div class="w-[100%] lg:basis-1/5">
+            <a href="#">
+            <img alt="Splash Chic" class="w-[100%]" src="img/category-1.jpg"/>
+                <div class="uppercase text-center">
+                    <h3 class="text-3xl text-gray-700 font-bold">Splash Chic</h3>
+                    <div class="text-lg text-rose-600">Women's Wet Gear</div>
                 </div>
-                <img alt="Grey Boots" src="img/grey-boots.jpg" />
-            </div>
-        </section>
+            </a>
+        </div>
+    <div class="w-[100%] lg:basis-1/5">
+            <a href="#">
+            <img alt="Kid Klimbers" class="w-[100%]" src="img/category-2.jpg"/>
+                <div class="uppercase text-center">
+                    <h3 class="text-3xl text-gray-700 font-bold">Kid Klimbers</h3>
+                    <div class="text-lg text-rose-600">Children's Gear</div>
+                </div>
+            </a>
+        </div>
+    <div class="w-[100%] lg:basis-1/5">
+            <a href="#">
+            <img alt="Pack It In" class="w-[100%]" src="img/category-3.jpg"/>
+                <div class="uppercase text-center">
+                    <h3 class="text-3xl text-gray-700 font-bold">Pack It In</h3>
+                    <div class="text-lg text-rose-600">Camping Gear</div>
+                </div>
+            </a>
+        </div>
+    <div class="w-[100%] lg:basis-1/5">
+            <a href="#">
+            <img alt="Nature's AC" class="w-[100%]" src="img/category-4.jpg"/>
+                <div class="uppercase text-center">
+                    <h3 class="text-3xl text-gray-700 font-bold">Nature's AC</h3>
+                    <div class="text-lg text-rose-600">Men's Shorts</div>
+                </div>
+            </a>
+        </div>
+    </section>
 
-        <!-- CATEGORIES -->
-        <section>
-            <div class="">
-                <a href="#">
-                    <img alt="Splash Chic" src="img/category-1.jpg" />
-                    <div class="">
-                        <h3>Splash Chic</h3>
-                        <div>Women's Wet Gear</div>
-                    </div>
-                </a>
-            </div>
-            <div class="">
-                <a href="#">
-                    <img alt="Kid Klimbers" src="img/category-2.jpg" />
-                    <div class="">
-                        <h3>Kid Klimbers</h3>
-                        <div>Children's Gear</div>
-                    </div>
-                </a>
-            </div>
-            <div class="">
-                <a href="#">
-                    <img alt="Pack It In" src="img/category-3.jpg" />
-                    <div class="">
-                        <h3>Pack It In</h3>
-                        <div>Camping Gear</div>
-                    </div>
-                </a>
-            </div>
-            <div class="">
-                <a href="#">
-                    <img alt="Nature's AC" src="img/category-4.jpg" />
-                    <div class="">
-                        <h3>Nature's AC</h3>
-                        <div>Men's Shorts</div>
-                    </div>
-                </a>
-            </div>
-        </section>
+    <!-- FULL BANNER -->
+    <section class="w-[100%] min-h-fit flex flex-wrap my-20 bg-gray-700">
+        <div class="full-banner-cover w-[100%] h-96 lg:h-auto min-h-max lg:basis-1/2"></div>
+        <div class="text-center text-white w-[100%] min-h-max py-20 lg:basis-1/2 flex flex-col items-center gap-6">
+            <h4 class="italic text-4xl font-bold text-teal-600 uppercase">Trail Review</h4>
+            <hr class="w-48 bg-orange-500 border-orange-500" style="height: 8px"/>
+            <div class="text-6xl font-bold uppercase">Asphalt</div>
+            <div class="text-3xl font-light uppercase">National Park</div>
+            <a class="px-6 py-2 text-white bg-orange-500 rounded-md uppercase text-xl mt-8" href="#">See Review</a>
+        </div>
+    </section>
+</div>
 
-        <!-- FULL BANNER -->
-        <section class="">
-            <div class=""></div>
+<!-- FOOTER -->
+<footer class="bg-gray-500 text-white p-20 pb-10">
+    <section class="flex justify-around uppercase">
+        <div class="flex flex-col gap-6">
+            <div class="text-xl text-gray-800 font-bold">Customer Support</div>
+            <ul class="flex flex-col gap-2">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Order Tracker</a></li>
+                <li><a href="#">Returns &amp; Refunds</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Store Locator</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="text-xl text-gray-800 font-bold">Company Info</div>
+            <ul class="flex flex-col gap-2">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="text-xl text-gray-800 font-bold">Privacy &amp; Terms</div>
+            <ul class="flex flex-col gap-2">
+                <li><a href="#">Privacy &amp; Security</a></li>
+                <li><a href="#">Statement</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div class="flex justify-around">
+            <div class="text-xl text-gray-800 font-bold">Follow Us</div>
+            <ul class="flex flex-col gap-2">
+                <li><a href="#" class="twitter"></a></li>
+                <li><a href="#" class="facebook"></a></li>
+                <li><a href="#" class="instagram"></a></li>
+                <li><a href="#" class="pinterest"></a></li>
+            </ul>
             <div class="">
+                <div class="">Email Updates</div>
+                <div class="">
+                    Exclusive sales, special offers, and more.
+                </div>
+                <input type="text" class="" placeholder="Enter email address"/>
+                <button class="">Sign up</button>
                 <h4>Trail Review</h4>
                 <div>Asphalt</div>
                 <div>National Park</div>
@@ -175,10 +231,13 @@
                      <button class="bg-gradient h-8 text-white w-32 ">Sign up</button>
                  </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- COPYRIGHT -->
- 
+    <!-- COPYRIGHT -->
+    <div class="text-center mt-8">&copy; <a href="https://github.com/tahirjamali">Tahir Jamali</a> <span
+            id="year"></span></div>
+            
             <div class="flex flex-col mt-20 gap-1">
                 <div class="flex gap-2 justify-center">
                     <a href="#"><img src="./img/twitter.png" alt="twitter"></a>
@@ -186,15 +245,13 @@
                     <a href="#"><img src="./img/pinterest.png" alt="pinterest"></a>
                 </div>
             <div class="text-center ">&copy; <a href="https://github.com/tahirjamali">Tahir Jamali</a> <span id="year"></span></div>
-            </div>
+    </div>
 
        
- 
-
-        <script>
-            document.getElementById("year").innerText = new Date().getFullYear();
-        </script>
-    </footer>
+    <script>
+        document.getElementById("year").innerText = String(new Date().getFullYear());
+    </script>
+</footer>
 </body>
 
 </html>

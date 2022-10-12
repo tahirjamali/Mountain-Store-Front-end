@@ -15,23 +15,19 @@
 
     .hero {
         background-image: url('../img/hero.jpg');
-        @apply bg-no-repeat bg-center bg-cover
+        @apply bg-no-repeat bg-cover
     }
- 
 }
-
-.btn {
-    padding: 4px 20px;
-
-}
+.full-banner-cover {
+    background-image: url('../img/vista.jpg');
+    @apply bg-no-repeat bg-cover
+ }
 
 .bg-gradient {
     background:linear-gradient(90deg, rgba(213,118,35,1) 0%, rgba(255,19,99,1) 100%);
- 
 }
 
 footer {
-
     background: linear-gradient(white, white) padding-box,
     linear-gradient(to right,#d94607, #d91807) border-box;
     border-width: 4px;
@@ -41,6 +37,3 @@ footer {
     border-right: 0;
     border-top-left-radius: 20%;
 }
-
-
-
