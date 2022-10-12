@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+#nav >li {
+    @apply hover:text-slate-600
+}
+}
+
+.btn {
+    padding: 4px 20px;
+
+}
+
+.bg-gradient {
+    background:linear-gradient(90deg, rgba(213,118,35,1) 0%, rgba(255,19,99,1) 100%);
+}
+
