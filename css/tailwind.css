@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+#nav >li {
+    @apply hover:text-slate-600
+}
+.footer-ul-li > li {
+   @apply w-10 h-10
+}
     #nav >li {
         @apply hover:text-slate-600
     }
@@ -11,13 +17,23 @@
         background-image: url('../img/hero.jpg');
         @apply bg-no-repeat bg-cover
     }
-
-    .full-banner-cover {
-        background-image: url('../img/vista.jpg');
-        @apply bg-no-repeat bg-cover
-    }
 }
+.full-banner-cover {
+    background-image: url('../img/vista.jpg');
+    @apply bg-no-repeat bg-cover
+ }
 
 .bg-gradient {
     background:linear-gradient(90deg, rgba(213,118,35,1) 0%, rgba(255,19,99,1) 100%);
+}
+
+footer {
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right,#d94607, #d91807) border-box;
+    border-width: 4px;
+    border-style: solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top-left-radius: 20%;
 }
