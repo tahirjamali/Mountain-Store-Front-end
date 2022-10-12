@@ -5,8 +5,9 @@ node_modules/
 .DS_Store
 
 # tailwind css output
-./css/styles.css
 
 # backstopjs
 backstop_data/html_report/
 backstop_data/bitmaps_test/
+css/styles.css
+css/styles.css
