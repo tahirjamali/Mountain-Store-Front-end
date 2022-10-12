@@ -6,6 +6,9 @@
 #nav >li {
     @apply hover:text-slate-600
 }
+.footer-ul-li > li {
+   @apply w-10 h-10
+}
 }
 
 .btn {
@@ -17,20 +20,3 @@
     background:linear-gradient(90deg, rgba(213,118,35,1) 0%, rgba(255,19,99,1) 100%);
 }
 
-
-
-
-
-.facebook {
-    background-image: url('../img/facebook.svg');
-
-}
-.twitter {
-    background-image: url('../img/twitter.svg');
-}
-.instagram {
-    background-image: url('../img/instagram.svg');
-}
-.pinterest {
-    background-image: url('../img/pinterest.svg');
-}
